@@ -1,4 +1,4 @@
-This is a project for image classification that was available on kaggle.
+This is a project for image classification that was available on kaggle (https://www.kaggle.com/c/ranzcr-clip-catheter-line-classification/data for the heavy data download like train images and test images, the data is about 12 Go).
 
 The problem here is to detect potential tubes in various positions (endotracheal, nasogastric, central venous and/or if the Swan Ganz catheter is present) and if they have a good placement (normal / borderline / abnormal). It is a multilabel classification problem.
 
@@ -32,4 +32,4 @@ sample_submission.csv is an example of what the script should produce.
 algogo.py is the python script use to train the model and create a dataset from the train images predictions.
 
 
-efficientnetb3_notop.h5 is the model used for the classification (EfficientNet B3)
+efficientnetb3_notop.h5 is the model used for the classification (https://storage.googleapis.com/keras-applications/efficientnetb3_notop.h5 to download model with initial weights)
